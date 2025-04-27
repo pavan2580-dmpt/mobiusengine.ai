@@ -1,69 +1,7 @@
+import { plans } from "../shared/constants"
+
 export default function PricingPlans() {
-  const plans = [
-    {
-      id: "april-promo",
-      name: "April Promo",
-      price: 35,
-      period: "weekly",
-      features: [
-        "5 applications per week",
-        "Resume review & optimization",
-        "Cover letter customization",
-        "Job search strategy session",
-        "Email support",
-      ],
-      isPopular: false,
-      color: "white",
-    },
-    {
-      id: "starter",
-      name: "Starter",
-      price: 50,
-      period: "weekly",
-      features: [
-        "10 applications per week",
-        "Resume review & optimization",
-        "Cover letter customization",
-        "Job search strategy session",
-        "Email & chat support",
-      ],
-      isPopular: true,
-      color: "white",
-    },
-    {
-      id: "plus",
-      name: "Plus",
-      price: 100,
-      period: "weekly",
-      features: [
-        "20 applications per week",
-        "Resume review & optimization",
-        "Cover letter customization",
-        "Job search strategy session",
-        "Priority email & chat support",
-        "LinkedIn profile optimization",
-      ],
-      isPopular: false,
-      color: "white",
-    },
-    {
-      id: "advance",
-      name: "Advance",
-      price: 150,
-      period: "weekly",
-      features: [
-        "Unlimited applications",
-        "Resume review & optimization",
-        "Cover letter customization",
-        "Job search strategy session",
-        "Priority email & chat support",
-        "LinkedIn profile optimization",
-        "Weekly coaching calls",
-      ],
-      isPopular: false,
-      color: "blue",
-    },
-  ]
+
 
   return (
     <section id="plans" className="py-16 bg-white lg:px-[15%]">

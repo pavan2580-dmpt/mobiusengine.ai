@@ -1,22 +1,9 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaCirclePlay } from "react-icons/fa6";
-
+import { testimonials } from "../shared/constants";
 
 export default function Testimonials() {
-  const testimonials = [
-    {
-      id: 1,
-      text: "Holly is a senior executive who got over 10 job interviews and an offer she accepted",
-    },
-    {
-      id: 2,
-      text: "Holly is a senior executive who got over 10 job interviews and an offer she accepted",
-    },
-    {
-      id: 3,
-      text: "Holly is a senior executive who got over 10 job interviews and an offer she accepted",
-    },
-  ]
+
 
   return (
     <section id="testimonials" className="py-16 bg-white lg:px-[15%]">

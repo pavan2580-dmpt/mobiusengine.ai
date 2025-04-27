@@ -1,22 +1,7 @@
+import { steps } from "../shared/constants"
+
 export default function HowItWorks() {
-  const steps = [
-    {
-      number: 1,
-      title: "Submit Intake Form",
-    },
-    {
-      number: 2,
-      title: "We do the research and optimize your resume",
-    },
-    {
-      number: 3,
-      title: "We apply on your behalf to targeted companies",
-    },
-    {
-      number: 4,
-      title: "You get the interviews",
-    },
-  ]
+  
 
   return (
     <section className="py-16 bg-white lg:px-[15%]">

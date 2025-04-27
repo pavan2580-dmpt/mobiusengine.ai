@@ -1,25 +1,9 @@
-import user1 from "../assets/user1.png";
-import user2 from "../assets/user2.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import bg from "../assets/BG.png";
+import { team } from "../shared/constants";
 
 export default function AboutUs() {
-  const team = [
-    {
-      id: 1,
-      name: "Andrew",
-      role: "Founder & CEO",
-      bio: "Andrew is the founder of MessageHire. He is an accomplished recruitment expert with over 10 years of experience helping professionals land their dream jobs. After working at leading tech companies, Andrew founded MessageHire to revolutionize the job application process.",
-      image: user1,
-    },
-    {
-      id: 2,
-      name: "Rachel",
-      role: "Head of Operations",
-      bio: "Rachel has been part of MessageHire since its inception. With a background in talent acquisition and HR, she brings valuable insights to our team. Rachel leads our operations team and ensures that every client receives personalized service tailored to their career goals.",
-      image: user2,
-    },
-  ];
+ 
 
   return (
     <section

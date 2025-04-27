@@ -1,29 +1,10 @@
 import heart from "../assets/heart.png"
 import { FaUser } from "react-icons/fa";
 import { TiStarFullOutline } from "react-icons/ti";
+import { benefits } from "../shared/constants";
 
 export default function WhyChooseUs() {
-  const benefits = [
-    {
-      id: 1,
-      icon: "heart",
-      title: "Most Trusted Service",
-      description:
-        "With a 98% satisfaction rate, our clients trust us to deliver exceptional results for their job search.",
-    },
-    {
-      id: 2,
-      icon: "users",
-      title: "Real People, Real Help",
-      description: "Our team of career experts provides personalized guidance tailored to your unique career goals.",
-    },
-    {
-      id: 3,
-      icon: "star",
-      title: "Best in Class",
-      description: "Our proven methodology has helped thousands of professionals land interviews at top companies.",
-    },
-  ]
+ 
 
   return (
     <section className="py-16 bg-gray-50 lg:px-[15%]">

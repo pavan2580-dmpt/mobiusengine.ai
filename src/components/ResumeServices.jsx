@@ -1,34 +1,7 @@
-export default function ResumeServices() {
-  const services = [
-    {
-      id: "resume-build",
-      title: "Resume Build/Edit",
-      price: 1000,
-      oneTime: true,
-      features: [
-        "ATS-friendly resume format",
-        "Professional summary and work experience",
-        "Keyword optimization for job descriptions",
-        "Expert review by HR professionals",
-        "2 rounds of revisions",
-        "LinkedIn profile optimization",
-      ],
-    },
-    {
-      id: "interview-prep",
-      title: "Interview Prep",
-      price: 500,
-      oneTime: true,
-      features: [
-        "60-min mock interview session",
-        "Industry-specific questions",
-        "Personalized feedback",
-        "Follow-up strategy coaching",
-        "Salary negotiation tips",
-      ],
-    },
-  ]
+import { services } from "../shared/constants"
 
+export default function ResumeServices() {
+ 
   return (
     <section className="py-16 bg-gray-50 lg:px-[15%]">
       <div className="container mx-auto px-4">
