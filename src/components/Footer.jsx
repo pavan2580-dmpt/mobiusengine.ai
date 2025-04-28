@@ -104,7 +104,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-200 pt-6">
           <p className="text-gray-500 text-sm text-center">
-            © {new Date().getFullYear()} MessageHire. All rights reserved.
+            © {new Date().getFullYear()} Mobiusservices LLC All rights reserved.
           </p>
         </div>
       </div>
